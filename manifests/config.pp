@@ -9,6 +9,7 @@ class collectd::config inherits collectd {
   }
 
   file { 'collectd.conf':
+    ensure  => file,
     path    => $collectd::config_file,
     owner   => $collectd::config_owner,
     group   => $collectd::config_group,
