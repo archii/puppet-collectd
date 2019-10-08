@@ -98,7 +98,7 @@
       "version_requirement": ">= 4.25.0 < 7.0.0"
     },
     {
-      "name": "stahnma-epel",
+      "name": "stahnma-epel"
     },
     {
       "name": "puppetlabs-python_task_helper",
